@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import DirectTaxServices from './pages/DirectTaxServices';
+import Indirect from './pages/Indirect';
+import AuditandAssurance from './pages/AuditandAssurance';
+import CorporateandLLPlaws from './pages/CorporateandLLPlaws';
+import InsolvencyLaws from './pages/InsolvencyLaws';
+import Services from './pages/Services';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/direct-tax-services" element={<DirectTaxServices/>} />
+      <Route path="/indirect-tax-services" element={<Indirect/>} />
+      <Route path="/auditing-and-assurance-service" element={<AuditandAssurance/>} />
+      <Route path="/corporate-and-LLP-Laws" element={<CorporateandLLPlaws/>} />
+      <Route path="/insolvency-Laws" element={<InsolvencyLaws/>} />
+      <Route path="/services" element={<Services/>} />
+
+
+
+
+
+    </Routes>
+  </Router>
   );
 }
 
