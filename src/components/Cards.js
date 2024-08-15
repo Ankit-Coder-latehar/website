@@ -37,11 +37,7 @@ const Cards = () => {
       description: "Setting up of corporate and LLP entities, Compliances of Company Law matters",
       navigateTo: "/corporate-and-LLP-Laws"
     },
-    {
-      title: "Insolvency Laws (IBC)",
-      description: "Revival / restructuring plans, Direct and indirect tax related issues on insolvency",
-      navigateTo: "/Insolvency-Laws"
-    }
+  
   ];
 
   return (
