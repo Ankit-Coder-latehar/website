@@ -59,7 +59,7 @@ const Footer = () => {
               </li>
               <li>
                 <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
-                AJH Consulting Firm
+                TRJ Consulting Firm
               </li>
             </ul>
           </div>
