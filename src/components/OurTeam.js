@@ -2,10 +2,10 @@ import React from 'react';
 
 
 const teamMembers = [
-  { name: "Tusar Gupta", role: "Partner", imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkAyngo303KsaY5YxXpJpQUQxPhh-09A4Xdw&s" },
-  { name: "Rinky Sengar", role: "Managing Partner", imageUrl: "https://www.shutterstock.com/image-photo/team-diverse-partners-mature-latin-600nw-2346448085.jpg" },
+  { name: "Tushar Gupta", role: "Partner", imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkAyngo303KsaY5YxXpJpQUQxPhh-09A4Xdw&s" },
+  { name: "Rinky Senger", role: "Managing Partner", imageUrl: "https://www.shutterstock.com/image-photo/team-diverse-partners-mature-latin-600nw-2346448085.jpg" },
   { name: "Jatin Garg", role: "Managing Partner", imageUrl: "https://assets.entrepreneur.com/content/3x2/2000/20160520174625-co-founders-partnership-coworkers-meeting-office.jpeg" },
-  { name: "Rachit Jain", role: "Associate Member", imageUrl: "https://nextluxury.com/wp-content/uploads/Wedding-Mens-Formal-Wear-2.jpg" },
+  { name: "Rajat Jain", role: "Associate Member", imageUrl: "https://nextluxury.com/wp-content/uploads/Wedding-Mens-Formal-Wear-2.jpg" },
 ];
 
 const TeamSection = () => {

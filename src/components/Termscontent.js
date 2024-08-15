@@ -23,15 +23,15 @@ By accessing the site, and any pages thereof, you agree to be bound by the terms
 <br/>
 
 <h3>No Warranty</h3>
-The information and material contained in this site including text, graphics, links or other items are provided “as <br/>is”, “as available”. AJH & Co. does not warrant the accuracy, adequacy or completeness of this information and<br/> material and expressly disclaims liability for errors or omissions in this information and materials. No warranty of any kind, implied,<br/> express or statutory, including but not limited to the warranties of non-infringement of third-party rights, title,<br/> merchantability, fitness for a particular purpose and freedom from computer virus, is given in conjunction with the<br/> information and material.<br/>
+The information and material contained in this site including text, graphics, links or other items are provided “as <br/>is”, “as available”. TRJ & Associates does not warrant the accuracy, adequacy or completeness of this information and<br/> material and expressly disclaims liability for errors or omissions in this information and materials. No warranty of any kind, implied,<br/> express or statutory, including but not limited to the warranties of non-infringement of third-party rights, title,<br/> merchantability, fitness for a particular purpose and freedom from computer virus, is given in conjunction with the<br/> information and material.<br/>
 <br/>
 
 <h3>Copyright</h3>
-Material copyrighted by or owned by AJH & Co., any individual or entity are presented here for personal, non-commercial<br/> use only. Documents, content or images contained in this web site may not be copied or reproduced in any form without<br/> the written permission of AJH & Co..<br/>
+Material copyrighted by or owned by TRJ & Associates, any individual or entity are presented here for personal, non-commercial<br/> use only. Documents, content or images contained in this web site may not be copied or reproduced in any form without<br/> the written permission of TRJ & Associates.<br/>
 <br/>
 
 <h3>Limitation Of Liability</h3>
-In no event will AJH & Co. be liable for any damages, including without limitation direct or indirect, special, incidental or<br/> consequential damages, losses or expenses arising in connection with any failure of performance, error, omission,<br/> interruption, defect, delay in operation or transmission, computer virus or line or system failure, even AJH & Co., or<br/> representation thereof, are advised of the possibility of such damages, losses or expenses. Hyperlinks to other internet<br/> resources are at your own risk; the content, accuracy<br/>
+In no event will TRJ & Associates be liable for any damages, including without limitation direct or indirect, special, incidental or<br/> consequential damages, losses or expenses arising in connection with any failure of performance, error, omission,<br/> interruption, defect, delay in operation or transmission, computer virus or line or system failure, even TRJ & Associates, or<br/> representation thereof, are advised of the possibility of such damages, losses or expenses. Hyperlinks to other internet<br/> resources are at your own risk; the content, accuracy<br/>
 <br/>
         </div>
       </div>

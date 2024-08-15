@@ -7,7 +7,7 @@ const AdvisoryFirmSection = () => {
       
       <div className="md:w-1/2 w-full h-64 md:h-full flex items-center justify-center px-4 md:px-20 py-10">
         <img
-          src="/Screenshot 2024-08-10 084926.png" 
+          src="/CA-India-Logo.png" 
           alt="Advisory Firm Office"
           className="object-cover opacity-50 h-full w-full md:h-3/4 md:w-5/4"
         />

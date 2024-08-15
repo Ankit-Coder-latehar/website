@@ -8,7 +8,7 @@ const Footer = () => {
           
           
           <div>
-            <h2 className="text-2xl font-semibold mb-4">TRJ .<br/>India
+            <h2 className="text-2xl font-semibold mb-4">T R J & <br/>Associates
             </h2>
             <p className="text-gray-400">
               Chartered Accountants
@@ -66,7 +66,7 @@ const Footer = () => {
 
         </div>
         <div className="mt-10 text-center text-gray-400">
-          <p>Copyright © 2024 TRJ| Powered by Coravity Infotech</p>
+          <p>Copyright © 2024 TRJ & Associates| Powered by Coravity Infotech</p>
         </div>
       </div>
     </footer>

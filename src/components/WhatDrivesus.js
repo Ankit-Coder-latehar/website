@@ -33,12 +33,7 @@ const WhatDrivesus = () => {
       </div>
 
       
-      <div className="md:w-1/3 w-full md:pl-8">
-        <div className="w-full max-w-md mx-auto md:mx-0 p-6 bg-gray-100 rounded-lg shadow-lg">
-          <p className="text-xl md:text-2xl font-semibold mb-4">"Excellence Is Not A Skill It Is An Attitude"</p>
-          <p className="text-right text-gray-600">Ralph Marston</p>
-        </div>
-      </div>
+      
     </div>
   );
 };

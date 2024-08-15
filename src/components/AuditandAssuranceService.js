@@ -38,7 +38,7 @@ const AuditServices = () => {
               <tr className="border-b">
                 <td className="px-4 py-2 md:px-6 md:py-4">The investors and lenders trust auditors to provide an unbiased opinion about the financial position and the financial results.</td>
                 <td className="px-4 py-2 md:px-6 md:py-4">Compliance under Tax Audit Rules/Act and forms provided (As per Form 3CD) and computation of income as per the above form.</td>
-                <td className="px-4 py-2 md:px-6 md:py-4">AJH provides independent Inventory and Fixed Asset Verification services on Pan-India basis.</td>
+                <td className="px-4 py-2 md:px-6 md:py-4">TRJ provides independent Inventory and Fixed Asset Verification services on Pan-India basis.</td>
               </tr>
               <tr className="border-b">
                 <td className="px-4 py-2 md:px-6 md:py-4">Our extensive exposure, partner-led services, strong knowledge base and methodology, uniquely position us to provide value add services.</td>
