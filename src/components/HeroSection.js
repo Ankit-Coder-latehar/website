@@ -20,12 +20,14 @@ const HeroSection = () => {
     <div className="relative h-auto bg-gradient-to-r from-gray-800 to-gray-700 flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8 py-16 md:py-24">
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center">
         <div className="text-white max-w-lg mt-8 md:mt-0 md:mr-auto text-center md:text-left">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">
-            We provide timely, innovative, integrated, and solution-oriented advice.
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+            We provide timely, <br className="sm:hidden md:inline-block" />
+            innovative, integrated, <br className="sm:hidden md:inline-block" />
+            and solution-oriented advice.
           </h1>
           <div className="flex justify-center md:justify-start">
             <a href="/about">
-              <button className="bg-yellow-500 text-gray-900 px-6 py-3 mt-4 rounded font-medium hover:bg-yellow-600">
+              <button className="bg-yellow-500 text-gray-900 px-6 py-3 mt-4 rounded font-medium hover:bg-yellow-600 transition-transform transform hover:scale-105">
                 About Us
               </button>
             </a>
@@ -74,8 +76,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
-
-
-
 
