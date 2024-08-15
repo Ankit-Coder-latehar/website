@@ -18,34 +18,34 @@ const ServicesSection = () => {
         </div>
 
         <div className="grid gap-8 sm:grid-cols-1 lg:grid-cols-2 lg:grid-rows-2">
-          <div className="p-4 bg-gray-50 rounded-lg shadow-md">
+          <a href="/direct-tax-services"><div className="p-4 bg-gray-50 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold text-yellow-500">
               Direct Tax Services
             </h3>
             <p className="mt-2 text-gray-600">
               Our in-depth understanding and knowledge of the Tax Laws and regulatory areas including but not limited to, Transfer Pricing, International Tax, and Tax Planning.
             </p>
-          </div>
+          </div></a>
 
-          <div className="p-4 bg-gray-50 rounded-lg shadow-md">
+          <a href="/indirect-tax-services"><div className="p-4 bg-gray-50 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold text-yellow-500">
               Indirect Tax
             </h3>
             <p className="mt-2 text-gray-600">
               The Firm holds expertise in the following areas, with the team of professionals navigating the businesses safely through the soaring tax & regulatory tides under Indian indirect laws.
             </p>
-          </div>
+          </div></a>
 
-          <div className="p-4 bg-gray-50 rounded-lg shadow-md">
+         <a href="/auditing-and-assurance-service"> <div className="p-4 bg-gray-50 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold text-yellow-500">
               Auditing & Assurance Services
             </h3>
             <p className="mt-2 text-gray-600">
               Our assurance services help organizations keep pace in their growth trajectory along with ensuring timely compliance in regulatory responsibilities.
             </p>
-          </div>
+          </div></a>
 
-          <div className="p-4 bg-gray-50 rounded-lg shadow-md">
+          <a href="/corporate-and-LLP-Laws"><div className="p-4 bg-gray-50 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold text-yellow-500">
               Corporate And LLP Laws
             </h3>
@@ -53,7 +53,7 @@ const ServicesSection = () => {
               Setting up of corporate and LLP entities. Compliances of Company Law matters.
             </p>
           </div>
-
+          </a>
         </div>
       </div>
     </div>
