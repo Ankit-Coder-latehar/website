@@ -9,16 +9,16 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md w-full z-50">
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
-        {/* Logo Section */}
+       
         <div className="flex items-center">
           <div className="relative w-32 h-16">
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="relative text-center">
-                {/* Logo Text with New Font */}
+                
                 <div
                   className="text-transparent font-bold text-3xl bg-clip-text relative"
                   style={{
-                    fontFamily: 'Arial, sans-serif', // Changed Font
+                    fontFamily: 'Arial, sans-serif', 
                     display: 'inline-block',
                   }}
                 >
@@ -27,24 +27,24 @@ const Header = () => {
                   </span>
                   <span style={{ position: 'relative' }} className='text-[#145886]'>
                     A
-                    {/* Left Arrow overlapping with A */}
+                    
                     <span
                       style={{
                         position: 'absolute',
-                        left: '6px', // Adjust the position
-                        top: '3px', // Adjust the vertical alignment
+                        left: '6px', 
+                        top: '3px', 
                         transform: 'rotate(180deg)',
                         color: '#ff4500',
                       }}
                     >
                       ✔
                     </span>
-                    {/* Right Arrow overlapping with A */}
+                   
                     <span
                       style={{
                         position: 'absolute',
-                        right: '-25px', // Adjust the position
-                        top: '3px', // Adjust the vertical alignment
+                        right: '-25px', 
+                        top: '3px', 
                         transform: 'rotate(180deg)',
                         color: '#55B848',
                       }}
@@ -53,7 +53,7 @@ const Header = () => {
                     </span>
                   </span>
                 </div>
-                {/* INDIA Text */}
+                
                 <div className="text-gray-700 font-semibold text-sm mt-1">
                   CHARTERED ACCOUNTANT
                 </div>
@@ -62,7 +62,7 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Navigation Section */}
+        
         <nav className="hidden md:flex md:items-center space-x-4">
           <a href="/" className="text-[#145886] text-sm font-semibold hover:text-gray-600 px-4">Home</a>
           <a href="/about" className="text-[#145886] text-sm font-semibold hover:text-gray-600 px-4">About</a>
@@ -86,7 +86,7 @@ const Header = () => {
           <a href="/contact" className="text-[#145886] text-sm font-semibold hover:text-gray-600 px-4">Contact</a>
         </nav>
 
-        {/* Menu Button */}
+       
         <button
           className="md:hidden flex items-center"
           onClick={() => setMenuOpen(!isMenuOpen)}
@@ -94,7 +94,7 @@ const Header = () => {
           {isMenuOpen ? <FaTimes className="text-gray-800" /> : <FaBars className="text-gray-800" />}
         </button>
 
-        {/* Consult Button */}
+     
         <div className="hidden md:flex">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center ml-4">
             <FaPhoneAlt className="mr-2" />
@@ -102,7 +102,7 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
+      
         <div className={`fixed inset-0 bg-white z-40 md:hidden transition-transform duration-300 ${isMenuOpen ? 'transform translate-x-0' : 'transform -translate-x-full'}`}>
           <div className="flex flex-col items-center py-4 space-y-4">
             <a href="/" className="text-lg text-[#145886] font-semibold hover:text-gray-600">Home</a>
