@@ -8,7 +8,6 @@ import Indirect from './pages/Indirect';
 import AuditandAssurance from './pages/AuditandAssurance';
 import CorporateandLLPlaws from './pages/CorporateandLLPlaws';
 import Services from './pages/Services';
-import Disclaimer from './components/Disclaimer';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
 
@@ -16,7 +15,6 @@ import Terms from './pages/Terms';
 function App() {
   return (
     <Router>
-      <Disclaimer/>
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/about" element={<About />} />

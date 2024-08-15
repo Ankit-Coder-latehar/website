@@ -11,58 +11,24 @@ const Header = () => {
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
        
         <div className="flex items-center">
-          <div className="relative w-32 h-16">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="relative text-center">
-                
-                <div
-                  className="text-transparent font-bold text-3xl bg-clip-text relative"
-                  style={{
-                    fontFamily: 'Arial, sans-serif', 
-                    display: 'inline-block',
-                  }}
-                >
-                  <span style={{ position: 'relative' }} className='text-[#145886]'>
-                    C
-                  </span>
-                  <span style={{ position: 'relative' }} className='text-[#145886]'>
-                    A
-                    
-                    <span
-                      style={{
-                        position: 'absolute',
-                        left: '6px', 
-                        top: '3px', 
-                        transform: 'rotate(180deg)',
-                        color: '#ff4500',
-                      }}
-                    >
-                      ✔
-                    </span>
-                   
-                    <span
-                      style={{
-                        position: 'absolute',
-                        right: '-25px', 
-                        top: '3px', 
-                        transform: 'rotate(180deg)',
-                        color: '#55B848',
-                      }}
-                    >
-                      ✔
-                    </span>
-                  </span>
-                </div>
-                
-                <div className="text-gray-700 font-semibold text-sm mt-1">
-                  CHARTERED ACCOUNTANT
-                </div>
-              </div>
+          
+          <div className="relative flex items-center">
+           
+            <img src="/images (3).png" alt="Company Logo" className="w-16 h-auto mr-4" />
+            
+            <div className="flex flex-col items-start">
+            
+              <div className="font-semibold text-xl text-[#145886]">TRJ Company</div>
+              
+          
+              <div className="border-t-2 border-[#145886] w-full my-1"></div>
+              
+            
+              <div className="text-gray-700 font-semibold text-sm">CHARTERED ACCOUNTANT</div>
             </div>
           </div>
         </div>
 
-        
         <nav className="hidden md:flex md:items-center space-x-4">
           <a href="/" className="text-[#145886] text-sm font-semibold hover:text-gray-600 px-4">Home</a>
           <a href="/about" className="text-[#145886] text-sm font-semibold hover:text-gray-600 px-4">About</a>
@@ -86,7 +52,6 @@ const Header = () => {
           <a href="/contact" className="text-[#145886] text-sm font-semibold hover:text-gray-600 px-4">Contact</a>
         </nav>
 
-       
         <button
           className="md:hidden flex items-center"
           onClick={() => setMenuOpen(!isMenuOpen)}
@@ -94,7 +59,6 @@ const Header = () => {
           {isMenuOpen ? <FaTimes className="text-gray-800" /> : <FaBars className="text-gray-800" />}
         </button>
 
-     
         <div className="hidden md:flex">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center ml-4">
             <FaPhoneAlt className="mr-2" />
@@ -102,7 +66,6 @@ const Header = () => {
           </button>
         </div>
 
-      
         <div className={`fixed inset-0 bg-white z-40 md:hidden transition-transform duration-300 ${isMenuOpen ? 'transform translate-x-0' : 'transform -translate-x-full'}`}>
           <div className="flex flex-col items-center py-4 space-y-4">
             <a href="/" className="text-lg text-[#145886] font-semibold hover:text-gray-600">Home</a>
@@ -133,3 +96,4 @@ const Header = () => {
 };
 
 export default Header;
+

@@ -21,11 +21,11 @@ const Disclaimer = () => {
             <div id="disclaimer-title" className="text-4xl sm:text-5xl mb-4">!</div>
             <h2 className="text-xl sm:text-2xl mb-4">Disclaimer</h2>
             <p id="disclaimer-description" className="text-sm sm:text-base mb-4">
-              As per the Chartered Accountants Act, 1949 and the guidelines laid down by the Institute of Chartered Accountants of India (ICAI), Chartered Accountants are prohibited from soliciting clients or professional work either directly or indirectly. This website is only intended to provide general information about AJH & Co., its partners, and the services it renders. By clicking on ‘I Agree’, the user acknowledges the following:
+              As per the Chartered Accountants Act, 1949 and the guidelines laid down by the Institute of Chartered Accountants of India (ICAI), Chartered Accountants are prohibited from soliciting clients or professional work either directly or indirectly. This website is only intended to provide general information about TRJ, its partners, and the services it renders. By clicking on ‘I Agree’, the user acknowledges the following:
             </p>
             <ul className="list-disc list-inside text-left text-sm sm:text-base mb-4">
-              <li>The user wishes to gain more information about AJH & Co. for his/her own use;</li>
-              <li>There has been no advertisement, personal communication, invitation, or inducement of any sort whatsoever from AJH & Co. or any of its partners to solicit any work through this website;</li>
+              <li>The user wishes to gain more information about TRJ. for his/her own use;</li>
+              <li>There has been no advertisement, personal communication, invitation, or inducement of any sort whatsoever from TRJ. or any of its partners to solicit any work through this website;</li>
               <li>Any information obtained from this website is completely at the user’s volition;</li>
               <li>Information contained in the website is not in the nature of professional opinion and would not under any circumstances be equivalent to any professional advice.</li>
             </ul>
