@@ -7,19 +7,16 @@ const CorporateServices = () => {
         <h2 className="font-semibold text-lg mb-5">Tax Services</h2>
         <ul className="text-sm">
           <li className="mb-2">
-            <a href="/direct-tax-services" className="block p-2 hover:bg-yellow-200">Direct Tax Services</a>
+            <a href="/direct-tax-services" className="block p-2 hover:bg-[#F37920]">Direct Tax Services</a>
           </li>
           <li className="mb-2">
-            <a href="/indirect-tax-services" className="block p-2 hover:bg-yellow-200">Indirect Tax</a>
+            <a href="/indirect-tax-services" className="block p-2 hover:bg-[#F37920]">Indirect Tax</a>
           </li>
           <li className="mb-2">
-            <a href="/auditing-and-assurance-service" className="block p-2 hover:bg-yellow-300">Auditing and Assurance Services</a>
+            <a href="/auditing-and-assurance-service" className="block p-2 hover:bg-[#F37920]">Auditing and Assurance Services</a>
           </li>
           <li className="mb-2">
-            <a href="/corporate-and-LLP-Laws" className="block p-2 bg-yellow-300">Corporate and LLP Laws</a>
-          </li>
-          <li className="mb-2">
-            <a href="/insolvency-Laws" className="block p-2 hover:bg-yellow-200">Insolvency Laws (IBC)</a>
+            <a href="/corporate-and-LLP-Laws" className="block p-2 bg-[#F37920]">Corporate and LLP Laws</a>
           </li>
         </ul>
       </div>
@@ -30,9 +27,6 @@ const CorporateServices = () => {
         <div className="overflow-x-auto mt-10">
           <p>Setting up of corporate and LLP entities.</p>
           <p>Compliances of Company Law matters</p>
-          <p>Mergers and Acquisitions</p>
-          <p>Joint Ventures</p>
-          <p>Capital restructuring</p>
         </div>
       </div>
     </div>

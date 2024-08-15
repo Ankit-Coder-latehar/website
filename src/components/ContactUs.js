@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contactus = () => {
   return (
-    <section className="bg-yellow-500 text-white py-10 sm:py-16 md:py-20 lg:py-24">
+    <section className="bg-[#F37920] text-white py-10 sm:py-16 md:py-20 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-2 sm:mb-4">
           Who We Are

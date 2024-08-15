@@ -17,15 +17,11 @@ const AdvisoryFirmSection = () => {
       <div className="md:w-1/2 w-full flex flex-col justify-center bg-white px-4 md:px-20 py-10">
         <div className="space-y-6">
           <div className="border-l-4 border-yellow-500 pl-4">
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-800">Advisory Firm</h1>
-            <h2 className="text-xl md:text-2xl font-semibold text-gray-700 mt-2">Since 1985</h2>
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-800"> Consultancy Firm</h1>
+           
           </div>
           <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-            Founded in 1985, AJH & Co is amongst the most experienced Chartered Accountancy firms.
-            Combining a rich heritage of more than four decades with a modern and cutting-edge practice,
-            the firm offers full suite business service solutions to our domestic and international clients.
-            It is a professionally managed Advisory Firm, with the aim to synthesise knowledge into value for
-            the benefit of its clients, its people, and the community at large.
+          T R J & Associates is amongst the experienced Chartered Accountancy firms. The firm offers full suite business service solutions to the domestic and international clients. It is a professionally managed Consulting Firm, with the aim to synthesise knowledge into value for the benefit of its clients, its people and the community at large. The team is committed to the guiding principles’ which include high standards for service, accessibility, seamless interdisciplinary functions and integrity.								
           </p>
         </div>
       </div>

@@ -23,9 +23,10 @@ const HeroSection = () => {
             We provide timely, innovative, integrated, and solution-oriented advice.
           </h1>
           <div className="flex justify-center md:justify-start">
-            <button className="bg-yellow-500 text-gray-900 px-6 py-3 mt-4 rounded font-medium hover:bg-yellow-600">
+          <a href="/about"><button className="bg-yellow-500 text-gray-900 px-6 py-3 mt-4 rounded font-medium hover:bg-yellow-600">
               About Us
             </button>
+            </a>
           </div>
         </div>
 
@@ -33,7 +34,7 @@ const HeroSection = () => {
           <Slider {...settings}>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1533280385001-c32ffcbd52a7?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="/pexels-a-darmel-7710218.jpg"
                 alt="Office Building 1"
                 className="rounded-lg shadow-lg w-full h-64 sm:h-80 md:h-96 object-cover"
               />
@@ -43,7 +44,7 @@ const HeroSection = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1494173853739-c21f58b16055?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="/pexels-rethaferguson-3810793.jpg"
                 alt="Office Building 2"
                 className="rounded-lg shadow-lg w-full h-64 sm:h-80 md:h-96 object-cover"
               />
@@ -53,7 +54,7 @@ const HeroSection = () => {
             </div>
             <div className="relative">
               <img
-                src="https://plus.unsplash.com/premium_photo-1683880731785-e5b632e0ea13?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="/pexels-thirdman-7652039.jpg"
                 alt="Office Building 3"
                 className="rounded-lg shadow-lg w-full h-64 sm:h-80 md:h-96 object-cover"
               />

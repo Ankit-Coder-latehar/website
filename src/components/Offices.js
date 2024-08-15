@@ -13,25 +13,26 @@ const Offices = () => {
           <div className="mb-8 md:mb-0 md:mr-16">
             <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">Gurugram</h3>
             <p className="text-gray-600">
-              Unit 125, Tower B3, Spaze Itech Park,<br />
-              Sohna Road, Sector 49,<br />
-              Gurgaon – 122019,<br />
-              Haryana
+           Unit no 201, Pyramid House		<br/>
+           NH-08, Sector 33		<br/>
+            Gurugram - 122001 Haryana		<br/>
+
             </p>
             <p className="text-orange-600 font-semibold mt-2">
-              <span role="img" aria-label="phone">📞</span> 0124 - 4115084
+              <span role="img" aria-label="phone">📞</span> +91-8447484647
             </p>
           </div>
           <div>
-            <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">Delhi</h3>
+            <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">Sohna		</h3>
             <p className="text-gray-600">
-              Unit 104, Usha Kiran Building,<br />
-              Azadpur Commercial Complex,<br />
-              New Delhi – 110033,<br />
-              Delhi
+
+            Plot no 37		<br/>
+            New Anaj Mandi, Sohna	<br/>	
+            Gurugram - 122103 Haryana		
+
             </p>
             <p className="text-orange-600 font-semibold mt-2">
-              <span role="img" aria-label="phone">📞</span> 011-27674137
+              <span role="img" aria-label="phone">📞</span> +91-9560153500
             </p>
           </div>
         </div>

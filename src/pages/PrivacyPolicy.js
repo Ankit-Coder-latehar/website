@@ -1,20 +1,20 @@
 import React from 'react'
 import ContactHeader from '../components/Header/Header'
 import Header from '../components/Navigation'
-import HeadingInsolvencyLaws from '../components/HeadingInsolvencyLaws'
-import LawsService from '../components/LawsService'
+import HeadingPrivacy from '../components/HeadingPrivacy'
+import Privacy from '../components/Privacycontent'
 import Footer from '../components/Footer'
 
-const InsolvencyLaws = () => {
+const PrivacyPolicy = () => {
   return (
     <div>
         <ContactHeader/>
         <Header/>
-        <HeadingInsolvencyLaws/>
-        <LawsService/>
+        <HeadingPrivacy/>
+        <Privacy/>
         <Footer/>
     </div>
   )
 }
 
-export default InsolvencyLaws
+export default PrivacyPolicy

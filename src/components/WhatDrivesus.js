@@ -26,8 +26,9 @@ const WhatDrivesus = () => {
           <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Transaction Support</li>
           <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Financial Restructuring</li>
           <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Regulatory Approvals</li>
-          <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Joint Venture / Foreign Collaborations</li>
-          <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Takeover, Merger & Acquisitions</li>
+          <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Due Dilligence</li>
+          <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Secretarial Services
+          </li>
         </ul>
       </div>
 

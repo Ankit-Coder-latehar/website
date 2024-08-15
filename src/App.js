@@ -7,28 +7,27 @@ import DirectTaxServices from './pages/DirectTaxServices';
 import Indirect from './pages/Indirect';
 import AuditandAssurance from './pages/AuditandAssurance';
 import CorporateandLLPlaws from './pages/CorporateandLLPlaws';
-import InsolvencyLaws from './pages/InsolvencyLaws';
 import Services from './pages/Services';
+import Disclaimer from './components/Disclaimer';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import Terms from './pages/Terms';
 
 
 function App() {
   return (
     <Router>
+      <Disclaimer/>
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />}/>
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/direct-tax-services" element={<DirectTaxServices/>} />
       <Route path="/indirect-tax-services" element={<Indirect/>} />
       <Route path="/auditing-and-assurance-service" element={<AuditandAssurance/>} />
       <Route path="/corporate-and-LLP-Laws" element={<CorporateandLLPlaws/>} />
-      <Route path="/insolvency-Laws" element={<InsolvencyLaws/>} />
       <Route path="/services" element={<Services/>} />
-
-
-
-
-
+      <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
+      <Route path="/terms" element={<Terms/>} />
     </Routes>
   </Router>
   );

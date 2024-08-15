@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeadingAssuranceTax = () => {
   return (
-    <section className="bg-yellow-500 text-white py-12 sm:py-16 md:py-20 lg:py-24">
+    <section className="bg-[#F37920] text-white py-12 sm:py-16 md:py-20 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 sm:mb-6">
           Who We Are

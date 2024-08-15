@@ -18,9 +18,7 @@ const LawsService = () => {
           <li className="mb-2">
             <a href="/corporate-and-LLP-Laws" className="block p-2 hover:bg-yellow-300">Corporate and LLP Laws</a>
           </li>
-          <li className="mb-2">
-            <a href="/insolvency-Laws" className="block p-2 bg-yellow-200">Insolvency Laws (IBC)</a>
-          </li>
+          
         </ul>
       </div>
       <div className="flex-1 p-5 lg:p-6">

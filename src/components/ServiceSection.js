@@ -10,14 +10,14 @@ const ServicesSection = () => {
 
         <p className="mt-4 text-lg text-gray-500">
           We work together to provide assurance, Regulatory Advisory, Taxation & Business Services. We help clients by
-          understanding the complexity of regulatory environment.
+          understanding the complexity of the regulatory environment.
         </p>
 
         <div className="mt-8 mb-12 flex justify-center">
           <div className="border-t-2 border-yellow-500 w-16 mx-auto"></div>
         </div>
 
-        <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-1 lg:grid-cols-2 lg:grid-rows-2">
           <div className="p-4 bg-gray-50 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold text-yellow-500">
               Direct Tax Services
@@ -54,14 +54,6 @@ const ServicesSection = () => {
             </p>
           </div>
 
-          <div className="p-4 bg-gray-50 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-yellow-500">
-              Insolvency Laws (IBC)
-            </h3>
-            <p className="mt-2 text-gray-600">
-              Revival / restructuring plans, Direct and indirect tax related issues on insolvency.
-            </p>
-          </div>
         </div>
       </div>
     </div>
