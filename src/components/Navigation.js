@@ -18,7 +18,7 @@ const Header = () => {
             
             <div className="flex flex-col items-start">
             
-              <div className="font-semibold text-xl text-[#145886]">TRJ Company</div>
+              <div className="font-semibold text-xl text-[#145886]">TRJ ASSOCIATE</div>
               
           
               <div className="border-t-2 border-[#145886] w-full my-1"></div>
