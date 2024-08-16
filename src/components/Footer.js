@@ -59,14 +59,14 @@ const Footer = () => {
               </li>
               <li>
                 <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
-                TRJ Consulting Firm
+                TRJ Associates
               </li>
             </ul>
           </div>
 
         </div>
         <div className="mt-10 text-center text-gray-400">
-          <p>Copyright © 2024 TRJ & Associates| Powered by Coravity Infotech</p>
+          <p>Copyright © 2024 TRJ & Associates</p>
         </div>
       </div>
     </footer>
