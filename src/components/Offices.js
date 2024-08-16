@@ -19,7 +19,7 @@ const Offices = () => {
 
             </p>
             <p className="text-orange-600 font-semibold mt-2">
-              <span role="img" aria-label="phone">📞</span> +91-8447484647
+              <span role="img" aria-label="phone">📞</span>+91-9560153500
             </p>
           </div>
           <div>
@@ -32,7 +32,7 @@ const Offices = () => {
 
             </p>
             <p className="text-orange-600 font-semibold mt-2">
-              <span role="img" aria-label="phone">📞</span> +91-9560153500
+              <span role="img" aria-label="phone">📞</span> +91-8447484647
             </p>
           </div>
         </div>

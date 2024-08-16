@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const HeadingCorporate = () => {
   return (
-    <section className="bg-[#F37920] text-white py-12 sm:py-16 md:py-20 lg:py-24">
+    <section className="bg-[#F37920] text-white py-6 sm:py-8 md:py-10 lg:py-2">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 sm:mb-6">
           Who We Are
@@ -12,7 +12,8 @@ const HeadingCorporate = () => {
         </h1>
       </div>
     </section>
-  )
+  );
 }
 
 export default HeadingCorporate;
+

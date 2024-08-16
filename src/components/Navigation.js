@@ -37,7 +37,7 @@ const Header = () => {
               onClick={() => setDropdownOpen(!isDropdownOpen)}
               className="text-[#145886] text-sm font-semibold hover:text-gray-600 px-4 flex items-center"
             >
-              <span>Services</span>
+              <a  href='/services'><span>Services</span></a>
               <BsFillCaretDownFill className="ml-1 text-[#145886]" />
             </button>
             {isDropdownOpen && (
@@ -60,7 +60,7 @@ const Header = () => {
         </button>
 
         <div className="hidden md:flex">
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center ml-4">
+          <button className="bg-[#145886] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center ml-4">
             <FaPhoneAlt className="mr-2" />
             <a href="/contact" className="text-white font-bold text-sm">Consult Now</a>
           </button>
@@ -75,7 +75,7 @@ const Header = () => {
                 onClick={() => setDropdownOpen(!isDropdownOpen)}
                 className="text-[#145886] text-lg font-semibold hover:text-gray-600 flex items-center"
               >
-                <span>Services</span>
+                <a href='/services'><span>Services</span></a>
                 <BsFillCaretDownFill className="ml-1 text-gray-600" />
               </button>
               {isDropdownOpen && (

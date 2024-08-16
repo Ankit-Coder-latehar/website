@@ -6,19 +6,16 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           
-          
           <div>
-            <h2 className="text-2xl font-semibold mb-4">T R J & <br/>Associates
+            <h2 className="text-2xl font-semibold mb-4">
+              T R J & <br/>Associates
             </h2>
-            <p className="text-gray-400">
-              Chartered Accountants
-            </p>
+            <p className="text-gray-400">Chartered Accountants</p>
             <p className="mt-4 text-gray-400">
-            T R J & Associates is amongst the experienced Chartered Accountancy firms.  The firm offers full suite business service solutions to our domestic and international clients.									
+              T R J & Associates is amongst the experienced Chartered Accountancy firms. The firm offers full suite business service solutions to our domestic and international clients.
             </p>
           </div>
           
-        
           <div>
             <h3 className="text-lg font-semibold mb-4">SERVICES</h3>
             <ul className="text-gray-400">
@@ -29,7 +26,6 @@ const Footer = () => {
             </ul>
           </div>
           
-         
           <div>
             <h3 className="text-lg font-semibold mb-4">TERMS</h3>
             <ul className="text-gray-400">
@@ -38,28 +34,28 @@ const Footer = () => {
             </ul>
           </div>
           
-         
           <div>
             <h3 className="text-lg font-semibold mb-4">GET IN TOUCH</h3>
             <ul className="text-gray-400">
-              <li className="mb-2">
+              <li className="mb-2 flex items-start">
                 <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
-                Address	
-                Unit no 201, Pyramid House		
-                NH-08, Sector 33		
-                Gurugram - 122001 Haryana		
+                <span className="ml-2">
+                  Address: Unit no 201, <br/>Pyramid House 
+                  NH-08,<br/> Sector 33, Gurugram - 122001 <br />
+                  Haryana
+                </span>
               </li>
-              <li className="mb-2">
+              <li className="mb-2 flex items-start">
                 <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
-                +91-8447484647, +91-9560153500		
+                <span className="ml-2">+91-8447484647, +91-9560153500</span>
               </li>
-              <li className="mb-2">
+              <li className="mb-2 flex items-start">
                 <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
-                info@trjassociates.in
+                <span className="ml-2">info@trjassociates.in</span>
               </li>
-              <li>
+              <li className="flex items-start">
                 <span className="inline-block w-4 text-yellow-500">&#8226;</span> 
-                TRJ Associates
+                <span className="ml-2">TRJ Associates</span>
               </li>
             </ul>
           </div>
