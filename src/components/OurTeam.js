@@ -10,7 +10,7 @@ const teamMembers = [
 
 const TeamSection = () => {
   return (
-    <div className="py-12 bg-white">
+    <div className="py-2 bg-white">
       <h1 className="text-center text-3xl font-semibold mb-10">Our Team</h1>
       <div className="flex justify-center items-center flex-wrap gap-8 px-5">
         {teamMembers.map(member => (

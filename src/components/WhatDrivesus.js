@@ -3,8 +3,7 @@ import { FiChevronRight } from 'react-icons/fi';
 
 const WhatDrivesus = () => {
   return (
-    <div className="flex flex-col md:flex-row w-full min-h-screen bg-white px-4 sm:px-10 md:px-20 py-10 justify-between">
-      
+    <div className="flex flex-col md:flex-row w-full max-w-6xl mx-auto bg-white px-4 sm:px-6 md:px-8 py-10 justify-between">
       
       <div className="md:w-1/3 w-full mb-6 md:mb-0 md:pr-8">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 md:mb-6 border-l-4 border-yellow-400 pl-4">What Drives Us</h1>
@@ -26,17 +25,13 @@ const WhatDrivesus = () => {
           <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Transaction Support</li>
           <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Financial Restructuring</li>
           <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Regulatory Approvals</li>
-          <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Due Dilligence</li>
-          <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Secretarial Services
-          </li>
+          <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Due Diligence</li>
+          <li className="flex items-center"><FiChevronRight className="mr-2 text-yellow-500" />Secretarial Services</li>
         </ul>
       </div>
-
-      
       
     </div>
   );
 };
 
 export default WhatDrivesus;
-

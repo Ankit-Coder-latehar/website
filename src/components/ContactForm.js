@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -11,28 +10,29 @@ const ContactForm = () => {
   });
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post('http://localhost:5000/send-email', formData)
-      .then((response) => {
-        console.log('Email sent successfully:', response.data);
-        alert('Your message has been sent successfully!');
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          subject: '',
-          message: ''
-        });
-      })
-      .catch((error) => {
-        console.log('Error sending email:', error);
-        alert('Failed to send the message, please try again.');
-      });
+    const mailtoLink = `mailto:info@trjassociates.in?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
+    )}`;
+
+    window.location.href = mailtoLink;
+
+    // Optionally, reset form fields
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      subject: '',
+      message: ''
+    });
   };
 
   return (
@@ -50,25 +50,25 @@ const ContactForm = () => {
         <h2 className="text-sm sm:text-base md:text-lg font-semibold mb-4 text-center md:text-left">
           We will be happy to help, please feel free to connect with us.
         </h2>
-        <form className="space-y-4" onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="space-y-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <input
               type="text"
               name="name"
               placeholder="Name"
               className="border border-gray-300 p-2 rounded w-full"
+              required
               value={formData.name}
               onChange={handleChange}
-              required
             />
             <input
               type="email"
               name="email"
               placeholder="Email"
               className="border border-gray-300 p-2 rounded w-full"
+              required
               value={formData.email}
               onChange={handleChange}
-              required
             />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -77,27 +77,27 @@ const ContactForm = () => {
               name="phone"
               placeholder="Phone"
               className="border border-gray-300 p-2 rounded w-full"
+              required
               value={formData.phone}
               onChange={handleChange}
-              required
             />
             <input
               type="text"
               name="subject"
               placeholder="Subject"
               className="border border-gray-300 p-2 rounded w-full"
+              required
               value={formData.subject}
               onChange={handleChange}
-              required
             />
           </div>
           <textarea
             name="message"
             placeholder="Message"
             className="border border-gray-300 p-2 rounded w-full h-24 resize-none"
+            required
             value={formData.message}
             onChange={handleChange}
-            required
           ></textarea>
           <button
             type="submit"

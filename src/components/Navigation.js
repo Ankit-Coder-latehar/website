@@ -1,43 +1,38 @@
 import React, { useState } from 'react';
 import { BsFillCaretDownFill } from 'react-icons/bs';
 import { FaPhoneAlt, FaBars, FaTimes } from 'react-icons/fa';
+import { useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
+
+  const isActiveRoute = (route) => location.pathname === route;
 
   return (
     <header className="bg-white shadow-md w-full z-50">
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
-       
         <div className="flex items-center">
-          
           <div className="relative flex items-center">
-           
             <img src="/images (3).png" alt="Company Logo" className="w-16 h-auto mr-4" />
-            
             <div className="flex flex-col items-start">
-            
               <div className="font-semibold text-xl text-[#145886]">T R J & ASSOCIATES</div>
-              
-          
               <div className="border-t-2 border-[#145886] w-full my-1"></div>
-              
-            
               <div className="text-gray-700 font-semibold text-sm">CHARTERED ACCOUNTANT</div>
             </div>
           </div>
         </div>
 
         <nav className="hidden md:flex md:items-center space-x-4">
-          <a href="/" className="text-[#145886] text-sm font-semibold hover:text-gray-600 px-4">Home</a>
-          <a href="/about" className="text-[#145886] text-sm font-semibold hover:text-gray-600 px-4">About</a>
+          <a href="/" className={`text-[#145886] text-sm font-semibold hover:text-gray-600 px-4 ${isActiveRoute('/') ? 'border-b-2 border-orange-500' : ''}`}>Home</a>
+          <a href="/about" className={`text-[#145886] text-sm font-semibold hover:text-gray-600 px-4 ${isActiveRoute('/about') ? 'border-b-2 border-orange-500' : ''}`}>About</a>
           <div className="relative">
             <button
               onClick={() => setDropdownOpen(!isDropdownOpen)}
-              className="text-[#145886] text-sm font-semibold hover:text-gray-600 px-4 flex items-center"
+              className={`text-[#145886] text-sm font-semibold hover:text-gray-600 px-4 flex items-center ${isActiveRoute('/services') ? 'border-b-2 border-orange-500' : ''}`}
             >
-              <a  href='/services'><span>Services</span></a>
+              <a href='/services'><span>Services</span></a>
               <BsFillCaretDownFill className="ml-1 text-[#145886]" />
             </button>
             {isDropdownOpen && (
@@ -49,7 +44,7 @@ const Header = () => {
               </div>
             )}
           </div>
-          <a href="/contact" className="text-[#145886] text-sm font-semibold hover:text-gray-600 px-4">Contact</a>
+          <a href="/contact" className={`text-[#145886] text-sm font-semibold hover:text-gray-600 px-4 ${isActiveRoute('/contact') ? 'border-b-2 border-orange-500' : ''}`}>Contact</a>
         </nav>
 
         <button
@@ -68,12 +63,12 @@ const Header = () => {
 
         <div className={`fixed inset-0 bg-white z-40 md:hidden transition-transform duration-300 ${isMenuOpen ? 'transform translate-x-0' : 'transform -translate-x-full'}`}>
           <div className="flex flex-col items-center py-4 space-y-4">
-            <a href="/" className="text-lg text-[#145886] font-semibold hover:text-gray-600">Home</a>
-            <a href="/about" className="text-lg text-[#145886] font-semibold hover:text-gray-600">About</a>
+            <a href="/" className={`text-lg text-[#145886] font-semibold hover:text-gray-600 ${isActiveRoute('/') ? 'border-b-2 border-orange-500' : ''}`}>Home</a>
+            <a href="/about" className={`text-lg text-[#145886] font-semibold hover:text-gray-600 ${isActiveRoute('/about') ? 'border-b-2 border-orange-500' : ''}`}>About</a>
             <div className="relative">
               <button
                 onClick={() => setDropdownOpen(!isDropdownOpen)}
-                className="text-[#145886] text-lg font-semibold hover:text-gray-600 flex items-center"
+                className={`text-[#145886] text-lg font-semibold hover:text-gray-600 flex items-center ${isActiveRoute('/services') ? 'border-b-2 border-orange-500' : ''}`}
               >
                 <a href='/services'><span>Services</span></a>
                 <BsFillCaretDownFill className="ml-1 text-gray-600" />
@@ -87,7 +82,7 @@ const Header = () => {
                 </div>
               )}
             </div>
-            <a href="/contact" className="text-[#145886] text-lg font-semibold hover:text-gray-600">Contact</a>
+            <a href="/contact" className={`text-[#145886] text-lg font-semibold hover:text-gray-600 ${isActiveRoute('/contact') ? 'border-b-2 border-orange-500' : ''}`}>Contact</a>
           </div>
         </div>
       </div>
@@ -96,4 +91,3 @@ const Header = () => {
 };
 
 export default Header;
-

@@ -13,7 +13,7 @@ const IndirectTaxServices = () => {
             <a href="/indirect-tax-services" className="block p-2 bg-[#F37920]">Indirect Tax</a>
           </li>
           <li className="mb-2">
-            <a href="/corporate-and-LLP-Laws" className="block p-2 hover:bg-[#F37920]">Auditing and Assurance Services</a>
+            <a href="/auditing-and-assurance-service" className="block p-2 hover:bg-[#F37920]">Auditing and Assurance Services</a>
           </li>
           <li className="mb-2">
             <a href="/corporate-and-LLP-Laws" className="block p-2 hover:bg-[#F37920]">Corporate and LLP Laws</a>

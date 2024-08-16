@@ -37,16 +37,20 @@ const Cards = () => {
       description: "Setting up of corporate and LLP entities, Compliances of Company Law matters",
       navigateTo: "/corporate-and-LLP-Laws"
     },
-  
   ];
 
   return (
     <div className="py-12 bg-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
-          {services.map((service, index) => (
-            <ServiceCard key={index} {...service} />
-          ))}
+        {/* First Row - Main Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 mb-8">
+          <ServiceCard {...services[0]} />
+          <ServiceCard {...services[1]} />
+        </div>
+        {/* Second Row - Remaining Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
+          <ServiceCard {...services[2]} />
+          <ServiceCard {...services[3]} />
         </div>
       </div>
     </div>
@@ -54,3 +58,4 @@ const Cards = () => {
 };
 
 export default Cards;
+
